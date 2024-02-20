@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  api:
+  web:
     build: .
     volumes:
       - .:/app
