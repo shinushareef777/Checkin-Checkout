@@ -34,8 +34,8 @@ These instructions will help you set up and run the expense tracker docker conta
 
 6. **Usage:**
     - Use the provided REST API endpoints to interact with the expense tracker:
-        - GET /instructor: List all instructor.
-        - POST /instructor: Create an instructor.
+        - GET /api/instructor: List all instructor.
+        - POST /api/instructor: Create an instructor.
           ```
           {
                 "name": "Instructor name"
@@ -49,8 +49,8 @@ These instructions will help you set up and run the expense tracker docker conta
               "date":"2024-04-20",
               "instructor_id": 2
           }
-        - GET /checkin: Get all the checkin.
-        - POST /checkout: Create a checkout with instructor id.
+        - GET /api/checkin: Get all the checkin.
+        - POST /api/checkout: Create a checkout with instructor id.
           example request body
           ```
           {
@@ -58,8 +58,8 @@ These instructions will help you set up and run the expense tracker docker conta
               "date":"2024-04-20",
               "instructor_id": 2
           }
-        - GET /summary/{month}: Get monthly summary of working hours
-          eg: /summary/2 gives total in time for all the instructor for february
+        - GET /api/summary/{month}: Get monthly summary of working hours
+          eg: /api/summary/2 gives total in time for all the instructor for february
           
 
 
